@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(1, 1, 52);
+    color:white;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:80px;
+    background-color:rgb(7, 7, 97)
+}
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    
+}
+nav ul li{
+    list-style:none;
+    margin:2px 23px;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+
+}
+
+nav ul li a:hover{
+    color:rgb(162, 162, 244);
+    font-size:1.02rem;
+
+
+}
+main hr{
+    border:0;
+    background-color:rgb(158, 87, 224);
+    height: 1.2px;
+    margin:60px 84px;
+}
+.left{
+    font-size:1.6rem;
+}
+.firstSection{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:130px 0;  
+
+}
+.firstSection> div{
+    width:30%;
+}
+.rightSection img{
+    width:80%;
+}
+.leftSection{
+    font-size:3rem;
+
+}
+.purple{
+    color:rgb(172, 98, 242);
+}
+#purple{
+    color:rgb(172, 98, 242);
+}
+.text-gray{
+    color:grey;
+    
+}
+.secondSection{
+    max-width:80vw;
+    margin:auto;
+    height: 80vh;
+
+}
+.secondSection h1{
+    font-size:1.9rem
+}
+.box{
+    background-color:white;
+    width:80vw;
+    height:2px;
+    margin:56px 0;
+    display:flex;
+}
+.vertical{
+    height:93px;
+    width:1px;
+    background-color:white;
+    margin:0 100px;
+   
+}
+.image-top{
+    width:30px;
+    position:relative;
+    top:-32px;
+    left:-9px;
+}
+.vertical-text{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size:14px;
+
+}
+.text-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 11px;
+}
+footer{
+    background-color:rgb(58, 2, 111);
+    /* height:233px; */
+}
+.footer{
+    display: flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.text-center{
+    text-align: center;
+    color:grey;
+    padding:12px 0;
+}
+.btn{
+    padding:12px;
+    background-color: rgb(79, 17, 195);
+    color:white;
+    border:2px solid white;
+    border-radius: 8px;
+    font-size:20px;
+    cursor: pointer;
+}
+.button{
+    padding :50px 0;
+}
